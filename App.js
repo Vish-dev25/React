@@ -1,11 +1,16 @@
-import React from 'react';
-import Example3 from './Events/Example3';
+import logo from './logo.svg';
+import './App.css';
+import Display from './Display';
+import Display2 from './Display2';
+
 
 function App() {
   return (
     <>
-     < Example3/>
+      {/* <Display/> */}
+      <Display2/>
     </>
   );
 }
+
 export default App;
